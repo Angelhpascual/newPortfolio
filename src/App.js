@@ -2,6 +2,8 @@ import React from "react";
 import Navigation from "./components/Navigation";
 import Headers from "./components/Headers";
 import Stack from "./components/Stack";
+import Work from "./components/Work";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Navigation />
       <Headers />
       <Stack />
+      <Contact />
     </div>
   );
 }

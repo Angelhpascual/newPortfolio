@@ -14,18 +14,24 @@ const Stack = () => {
       <div className="flex flex-wrap justify-center">
         {content.stack.tech.map((tech, index) => {
           return (
-            <span
-              key={index}
-              className={` ${
-                index % 2 === 0 ? "animate-float" : "animate-refloat"
-              } w-40 h-40 bg-white shadow-2xl m-2 rounded-full flex items-center p-5 `}
-            >
-              <LazyLoadImage src={tech.img} alt={tech.alt} effect="blur" />
-            </span>
+            <a href={tech.to}>
+              <span
+                key={index}
+                className={` ${
+                  index % 2 === 0 ? "animate-float" : "animate-refloat"
+                } w-40 h-40 bg-white shadow-2xl m-2 rounded-full flex items-center p-5 `}
+              >
+                <LazyLoadImage
+                  src={tech.img}
+                  alt={tech.alt}
+                  className="rounded-full"
+                />
+              </span>
+            </a>
           );
         })}
       </div>
-      <p className="w-11/12 md:max-w-xl text-xl text-center mt-10 ">
+      <p className="w-11/12 md:max-w-xl text-xl text-center mt-20 ">
         {content.stack.desc}
       </p>
     </div>
