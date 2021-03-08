@@ -741,7 +741,7 @@ module.exports = {
           transform: "translateY(-20px)",
           animationTimingFunction: "ease-in.out",
         },
-        "40%": {
+        "50%": {
           transform: "translateY(0px)",
           animationTimingFunction: "ease-in.out",
         },

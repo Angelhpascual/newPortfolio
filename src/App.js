@@ -11,6 +11,7 @@ function App() {
       <Navigation />
       <Headers />
       <Stack />
+      <Work />
       <Contact />
     </div>
   );
