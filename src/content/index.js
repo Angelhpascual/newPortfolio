@@ -22,14 +22,6 @@ export default {
     ],
     btnText: "Discover Me",
   },
-  work: {
-    title: "Projects",
-    img: process.env.PUBLIC_URL + "/assets/project-mobile.png",
-
-    projectName: "Sleeping",
-    desc:
-      "peaceful, and tranquil mean quiet and free from disturbance. calm is used when someone is not excited or upset even when there is cause for it. They stayed calm during the fire. peaceful is used when someone or something has reached a quiet state after some period of disturbance.",
-  },
 
   stack: {
     title: "Stack",
