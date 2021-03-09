@@ -12,7 +12,7 @@ export default {
 
     text: ["Hi!", "It's me Ángel.", "I am "],
     typical: [
-      "web developer. 🖥",
+      "Web Developer. 🖥",
       2000,
       "Streamer. 📹",
       2000,

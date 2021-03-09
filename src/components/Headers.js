@@ -17,12 +17,11 @@ const Headers = () => {
       id="header"
     >
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
-        <div className="w-full md:w-2/5">
+        <div className="w-full md:w-2/5 justify-center items-center">
           <LazyLoadImage
             src={content.header.img}
             effect="blur"
             className="rounded-full"
-            placeholderSrc={process.env.PUBLIC_URL + "/logo512.png"}
           />
         </div>
         <div className="text-white font-dosis text-center md:text-left">
