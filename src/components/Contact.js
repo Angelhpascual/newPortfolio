@@ -51,14 +51,16 @@ const Contact = () => {
           >
             {content.contact.socials.map((social, index) => {
               return (
-                <LazyLoadImage
-                  effect="blur"
-                  className="m-2"
-                  width="50px"
-                  key={index}
-                  src={social.img}
-                  alt={social.alt}
-                />
+                <a href={social.to} target="_blank">
+                  <LazyLoadImage
+                    effect="blur"
+                    className="m-2"
+                    width="50px"
+                    key={index}
+                    src={social.img}
+                    alt={social.alt}
+                  />
+                </a>
               );
             })}
           </div>
